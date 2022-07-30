@@ -177,9 +177,21 @@ res.content     返回二进制数据
 res.json()      返回json数据
 res.status_code 返回状态码
 res.reason      返回响应信息
-res.cokkie      返回cookie信息
+res.cookie      返回cookie信息
 res.encoding    返回编码格式
 res.headers     返回响应头
 res.request.url 返回url
 res.request.xxx 返回请求信息       
 ```
+---
+### cookie关联
+```
+cookie关联一般是通过session来实现，不需要手动设置cookie
+1.手动设置cookie
+    cookie = res.cookie
+    request.get(cookie=cookie)
+2.session自动关联cookie
+    ression = requests.session
+    session.request()
+```
+---
