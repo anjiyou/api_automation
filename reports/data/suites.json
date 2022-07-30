@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.product_manage",
+    "children" : [ {
+      "name" : "test_product_manage",
+      "children" : [ {
+        "name" : "TestProduct",
+        "children" : [ {
+          "name" : "好长的标题好长的标题好长的标题好长的标题好长的标题",
+          "uid" : "d7e8aae0a575f806",
+          "parentUid" : "c6b922e295c27f3f18a3485b7c8bcb86",
+          "status" : "passed",
+          "time" : {
+            "start" : 1658301658542,
+            "stop" : 1658301658542,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c6b922e295c27f3f18a3485b7c8bcb86"
+      } ],
+      "uid" : "9c57afb080240373c19b58e4bde0c628"
+    } ],
+    "uid" : "6aba0f1726141bd37afaab4f5ffa34f6"
+  } ]
+}

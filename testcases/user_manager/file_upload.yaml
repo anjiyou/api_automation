@@ -1,0 +1,10 @@
+-
+  name: 文件上传接口
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/media/uploadimg
+    params:
+      access_token: access_token
+    json:
+      {"media": "D:\\IDEA\\背景\\3.png"}
+  validate: null

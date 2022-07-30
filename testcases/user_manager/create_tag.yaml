@@ -1,0 +1,10 @@
+-
+  name: 创建标签接口
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/tags/create
+    params:
+      access_token: access_token
+    json:
+      {"tag":{"name":"广东2322"}}
+  validate: null

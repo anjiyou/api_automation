@@ -3,9 +3,8 @@
   request:
     method: get
     url: https://api.weixin.qq.com/cgi-bin/token
-    headers: null
     datas:
       grant_type: client_credential
-      appid: wx227992753edd13e3
-      secret: 1049c0e5cf441e9904f33947f5cf12b6
-  validate: 断言
+      appid: wx56326605e2296b9b
+      secret: 12c89fcec6ddda6095543aada6042de9
+  validate: null
